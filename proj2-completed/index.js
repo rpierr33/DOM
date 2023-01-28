@@ -23,6 +23,7 @@ document.querySelectorAll(".drum").forEach(function(drumButtons){
 
 document.addEventListener("keypress", function(event){
             makeSound(event.key);
+        console.log(event.key);
 
 })
 
